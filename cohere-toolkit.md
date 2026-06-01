@@ -2,11 +2,11 @@
 id: oss/cohere-toolkit
 display: Cohere Toolkit
 area: agents
-stars: 3175
+stars: 3180
 commits_7d: 0
 tags: [oss, agents, python, rag]
 source_url: https://github.com/cohere-ai/cohere-toolkit
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # Cohere Toolkit

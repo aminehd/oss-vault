@@ -1,30 +1,31 @@
 ---
 repo: "llm-compressor"
 slug: llm-compressor
-commits_7d: 15
-updated: 2026-05-26
+commits_7d: 16
+updated: 2026-06-01
 ---
 
 # llm-compressor — Recent Commits (7d)
 
-**15 commits this week** · [GitHub](https://github.com/vllm-project/llm-compressor/commits)
+**16 commits this week** · [GitHub](https://github.com/vllm-project/llm-compressor/commits)
 
 ← [[../llm-compressor|Back to llm-compressor]]
 
 ## Commits
 
+- `8dc4851` [use num_calibration_samples instead of putting it in split (#2772)](https://github.com/vllm-project/llm-compressor/commit/8dc48513da8a6e25315c3558d54db436c52aa0e7) — HDCharles · 2026-05-29
+- `743ac64` [[Hotfix] Pin transformers to 5.8.1 for Gemma4 (#2758)](https://github.com/vllm-project/llm-compressor/commit/743ac646ae5f482e7967cfeccf02d2d222167e44) — Kyle Sayers · 2026-05-29
+- `445d3f2` [test: add sanity checks for vLLM e2e generated output (#2725)](https://github.com/vllm-project/llm-compressor/commit/445d3f2f3e06e3e6747c100295077c47cc9251e4) — Orestis Zambounis · 2026-05-29
+- `143a753` [[Tests] Checkpoint Conversion and MFP E2E Tests (#2767)](https://github.com/vllm-project/llm-compressor/commit/143a753744e81753c7f1ac80fcfbb7075119bd79) — Kyle Sayers · 2026-05-29
+- `8219dfb` [[Release] update dependency versions (#2764)](https://github.com/vllm-project/llm-compressor/commit/8219dfba82cc4bf9aaf8a7820f638b41a4d1a638) — dhuangnm · 2026-05-28
+- `dedc9be` [[tests] lm-eval model_free_ptq tests (#2766)](https://github.com/vllm-project/llm-compressor/commit/dedc9be129e0b2a092993d4f7ce0b8dfaefaab00) — Brian Dellabetta · 2026-05-28
+- `3b348af` [[Tests] [Bugfix] DDP lm_eval e2e tests (#2733)](https://github.com/vllm-project/llm-compressor/commit/3b348afb54cf149bfb5cf23ab199b452e6af28fd) — HDCharles · 2026-05-28
+- `9b63e78` [docs(autoround): clarify MXFP8 Qwen3-32B note and update example batch_size guidance (#2754)](https://github.com/vllm-project/llm-compressor/commit/9b63e78c3e4f71f4049b1e09131119c44348529d) — Wang, Chang · 2026-05-27
+- `3e7603a` [[Bugfix] Fix --no-cov flag error in torchrun DDP tests (#2765)](https://github.com/vllm-project/llm-compressor/commit/3e7603a184fbf604d41801b4f35fb4994c0ed4dd) — HDCharles · 2026-05-27
+- `5710212` [[Bugfix] Fix coverage SQLite race in torchrun DDP tests (#2757)](https://github.com/vllm-project/llm-compressor/commit/5710212544a3439797ac86e1c706c7de574df47e) — HDCharles · 2026-05-26
+- `e9f6718` [DDP docs updates (#2722)](https://github.com/vllm-project/llm-compressor/commit/e9f6718725b4b2521aabc36ab209cca58bc80cf9) — HDCharles · 2026-05-26
+- `355d949` [[Tests] [Bugfix] Fix race condition offload tests (#2756)](https://github.com/vllm-project/llm-compressor/commit/355d949ec3e3fae73eec6f53a86e839e9632c63e) — Kyle Sayers · 2026-05-26
+- `0df84d7` [refactor: modernize recipe module with Python 3.10+ type hints (#2719)](https://github.com/vllm-project/llm-compressor/commit/0df84d7bd295edabc078ff37aab94b233c315a98) — Asad Shahid · 2026-05-26
+- `7e0a0c9` [enhance AutoRoundModifier performance by skipping useless model forward in calibration stage. (#2713)](https://github.com/vllm-project/llm-compressor/commit/7e0a0c9b46083f2a8f1084ada11a97830653782a) — Xin He · 2026-05-26
+- `d431e0e` [Update AutoRound examples to suit general usage (#2712)](https://github.com/vllm-project/llm-compressor/commit/d431e0ed49e9edad6310373da2362be940ffa808) — Xin He · 2026-05-26
 - `e69a250` [[Docs] Add pre-quantized checkpoints to Qwen3.5 docs (#2755)](https://github.com/vllm-project/llm-compressor/commit/e69a250135f118ec75da50c36a261f20c4f14bdf) — Dipika Sikka · 2026-05-25
-- `e688d87` [[Docs] Add convert checkpoint (#2750)](https://github.com/vllm-project/llm-compressor/commit/e688d87ef5975ddf4d58ee17e32ca3ba4debe3e5) — Dipika Sikka · 2026-05-21
-- `c396a49` [[Tests] Disk Regression Tests (#2747)](https://github.com/vllm-project/llm-compressor/commit/c396a49701121b0451743c9e9eaa34f5bc9a1019) — Kyle Sayers · 2026-05-21
-- `bd1a29e` [Add Gemma 4 model details to documentation (#2749)](https://github.com/vllm-project/llm-compressor/commit/bd1a29eb3999a35526caff99d27a2b0bfdbc867b) — Dipika Sikka · 2026-05-21
-- `d5e3c44` [use custom scheme compatible with a small model](https://github.com/vllm-project/llm-compressor/commit/d5e3c44200b2a511eeb71328ddbd6000d96ef4df) — Dipika · 2026-05-21
-- `3b66b60` [[Tests] Disk Offloading Tests (#2721)](https://github.com/vllm-project/llm-compressor/commit/3b66b60b7561820ebf9e08ac2f9c414c635d2513) — Kyle Sayers · 2026-05-21
-- `9e854a0` [[Bugfix] Fix kv cache quantization  (#2746)](https://github.com/vllm-project/llm-compressor/commit/9e854a072a4b072fe5e3c81225d5d39affe7b8dc) — Kyle Sayers · 2026-05-21
-- `3612b3d` [[Docs] Add gemma4 model and prequantized checkpoint links (#2744)](https://github.com/vllm-project/llm-compressor/commit/3612b3ded875cc0a2619dedb420758b0a34f9930) — Dipika Sikka · 2026-05-21
-- `b640fac` [[docs] Kimi K2.6 key model docs (#2738)](https://github.com/vllm-project/llm-compressor/commit/b640fac8c85979ad34672fb9085d421f824d191c) — Brian Dellabetta · 2026-05-21
-- `494a9ec` [Add Qwen3.6 key-model documentation and remove outdated Qwen3 (#2740)](https://github.com/vllm-project/llm-compressor/commit/494a9ec61c6d56684b2818087f81443e80dae93e) — Dipika Sikka · 2026-05-21
-- `71ffd6b` [[Examples] Kimi K2.6  (#2662)](https://github.com/vllm-project/llm-compressor/commit/71ffd6b680af4600dbf1ac63d94556e312a9b6f6) — Brian Dellabetta · 2026-05-20
-- `c0c0165` [[Docs] Add DSV4 Example to Key Models (#2729)](https://github.com/vllm-project/llm-compressor/commit/c0c01657a4c509cc1524dd7b4d91e9bf2420fc13) — Kyle Sayers · 2026-05-20
-- `58bcff7` [[Tracing] Support tracing cache (#2686)](https://github.com/vllm-project/llm-compressor/commit/58bcff7a7a1e7b7c13131890e85152cc5f1ec684) — Kyle Sayers · 2026-05-19
-- `2077221` [Update observer and modifier docs for refactored observer API (#2671)](https://github.com/vllm-project/llm-compressor/commit/207722119305dcfe697f5e1b55898c5e1db8a01e) — HDCharles · 2026-05-19
-- `b7ed77a` [Fix coverage.py database corruption in DDP tests (#2726)](https://github.com/vllm-project/llm-compressor/commit/b7ed77a71e438898716616a9952c69604ef14712) — HDCharles · 2026-05-19

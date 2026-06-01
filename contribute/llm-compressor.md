@@ -2,7 +2,7 @@
 repo: "llm-compressor"
 slug: llm-compressor
 issues_count: 6
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # llm-compressor — Contribution Opportunities
@@ -14,7 +14,7 @@ Directly feeds vLLM. Sequential/algorithmic tasks merge fast. zeel2104 has 2 PRs
 ## Open Issues (6)
 
 - **[#2735 DSv4 canonical example drops MTP layer; load_quantizable_moe regex anchored at ^layers excludes mtp.* block](https://github.com/vllm-project/llm-compressor/issues/2735)**
-  opened 2026-05-20 · 1 comments
+  opened 2026-05-20 · 2 comments
   > ## Summary  The canonical `examples/quantizing_moe/deepseek_v4_example.py` (`kylesayrs/transformers-v5` branch, commit `8c533c21f`, 2026-05-20) calibrates the main 43 routed-expert layers of DeepSeek-
 
 - **[#2698 Remove iMatrixGatherer](https://github.com/vllm-project/llm-compressor/issues/2698)** `enhancement` `good first issue`

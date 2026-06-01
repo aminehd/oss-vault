@@ -1,35 +1,35 @@
 ---
 repo: "TRL"
 slug: trl
-commits_7d: 28
-updated: 2026-05-26
+commits_7d: 27
+updated: 2026-06-01
 ---
 
 # TRL — Recent Commits (7d)
 
-**28 commits this week** · [GitHub](https://github.com/huggingface/trl/commits)
+**27 commits this week** · [GitHub](https://github.com/huggingface/trl/commits)
 
 ← [[../trl|Back to TRL]]
 
 ## Commits
 
-- `a999373` [Add Qwen2.5-VL original and training chat template with generation markers (#5838)](https://github.com/huggingface/trl/commit/a9993736c2250da0b3d2f206ec217f144b891e5a) — Alexandr Azizyan · 2026-05-25
-- `a0d909b` [⬆️ Bump dev version (#5836)](https://github.com/huggingface/trl/commit/a0d909b1a099b4cf52ee12648142a4cd7d39ca04) — Quentin Gallouédec · 2026-05-25
-- `bd1e73f` [Release: v1.5 (#5835)](https://github.com/huggingface/trl/commit/bd1e73f0a86443d40ab8dc82b0cf8f8694246565) — Quentin Gallouédec · 2026-05-25
-- `fb9cb79` [Add Qwen3.5 Think/NoThink training chat templates with generation markers (#5824)](https://github.com/huggingface/trl/commit/fb9cb790b144a9a3a3a90b7f3c32572157ba0398) — Alexandr Azizyan · 2026-05-25
-- `9e80cab` [Fix `OpenRewardSpec` omitting task‑scoped tools during rollout binding (fixes #5727) (#5729)](https://github.com/huggingface/trl/commit/9e80cab78333b8a9ed160056f0d082b25d01d7da) — swappy · 2026-05-25
-- `7877695` [Migrate tests to Qwen3.5 Think/NoThink fixtures (#5821)](https://github.com/huggingface/trl/commit/78776953c1c49253787ea04c23e9390ffd14fe02) — Alexandr Azizyan · 2026-05-22
-- `0fcc5e2` [Add tiny Qwen3.5 Think/NoThink fixture generation scripts (#5819)](https://github.com/huggingface/trl/commit/0fcc5e2cd66b54db542ede1049dc00ad7618ede4) — Alexandr Azizyan · 2026-05-22
-- `43bd8f5` [Align KTO with DPO: Align _compute_loss_liger flow (#5816)](https://github.com/huggingface/trl/commit/43bd8f53f331c29a2ee5f6f02a221421e51b9a4a) — Albert Villanova del Moral · 2026-05-22
-- `cc4a0ff` [Align and simplify the stable training scripts (#5812)](https://github.com/huggingface/trl/commit/cc4a0ffa083318705c7557ac3f7a7ae80815d240) — Quentin Gallouédec · 2026-05-22
-- `4711a21` [Fix `metric_for_best_model` for trainer-specific eval metrics (#5811)](https://github.com/huggingface/trl/commit/4711a21d65027778fbbede7412c40f32c33f67af) — Quentin Gallouédec · 2026-05-22
-- `909d090` [Fix generate_batch: inference tensors block inplace ops in background thread (#5818)](https://github.com/huggingface/trl/commit/909d090fb0124cd1c0935e35c5ec6cea6cbe0c6f) — Albert Villanova del Moral · 2026-05-22
-- `d0e8b8c` [Align KTO with DPO: Align compute_loss flow (#5810)](https://github.com/huggingface/trl/commit/d0e8b8c1aa2a5f0c1dc96a39c6e45d7e03b50349) — Albert Villanova del Moral · 2026-05-22
-- `27cdfbb` [Fix CI test to avoid skipping model.visual params (#5806)](https://github.com/huggingface/trl/commit/27cdfbb8f809e83595c02e855cc624ebd452026f) — Albert Villanova del Moral · 2026-05-21
-- `5950714` [Fix MPS support in experimental empty_cache() (#5799)](https://github.com/huggingface/trl/commit/5950714aff517db7beb54e2256e3e69bedcc1f50) — jamie-peterson-ml · 2026-05-21
-- `8d67316` [Make the LLaVA / LLaVA-Next test guard explicit (#5778)](https://github.com/huggingface/trl/commit/8d673162e9fadf064d45058d0856ee1628a8ceb4) — Quentin Gallouédec · 2026-05-21
-- `12a1277` [Fix tiny Qwen2.5-VL fullatt_block_indexes out of range for depth=2 (#5805)](https://github.com/huggingface/trl/commit/12a1277d07ec749068bccf28b603db47b5a71719) — Albert Villanova del Moral · 2026-05-21
-- `cba92cb` [Remove non-existent params from tiny Qwen2-VL model (#5795)](https://github.com/huggingface/trl/commit/cba92cbdb9813077fbcd9bbc5f649ea7b0ed56cd) — Albert Villanova del Moral · 2026-05-21
-- `661ffa9` [Fix catch-all empty string in Makefile pytest --only-rerun (#5784)](https://github.com/huggingface/trl/commit/661ffa9b92fc10e02e3ad5f9e322d75e4990d362) — Albert Villanova del Moral · 2026-05-21
-- `bbb3976` [Fix OOM in CI by reducing batch size in GRPO/RLOO VLM tests (#5767)](https://github.com/huggingface/trl/commit/bbb39766cf36a7c42031a91d3fdd97478992a939) — Albert Villanova del Moral · 2026-05-21
-- `4dddc63` [Fix tiny Qwen3-VL `deepstack_visual_indexes` and drop the test skip (#5779)](https://github.com/huggingface/trl/commit/4dddc63e4756bdfa7305babfd4d792d094a8626b) — Quentin Gallouédec · 2026-05-21
+- `bf80d70` [Support non-lm_head output projections in chunked SFT loss (GPTNeoX) (#5857)](https://github.com/huggingface/trl/commit/bf80d705b4976ffd929573ce69dd461854f55c8d) — Quentin Gallouédec · 2026-05-31
+- `2fc06c8` [Set kernels optional dependency via transformers (#5884)](https://github.com/huggingface/trl/commit/2fc06c8cdcb6c117c506bdf8d10b1eecd1954ef8) — Albert Villanova del Moral · 2026-05-30
+- `e8389e5` [Update vLLM version support to 0.19.0 (#5879)](https://github.com/huggingface/trl/commit/e8389e51870287a206b79c8df3dfc5a9c7d5289d) — Sergio Paniego Blanco · 2026-05-29
+- `a7ba987` [Fix ValueError by pinning kernels < 0.15.1 (#5880)](https://github.com/huggingface/trl/commit/a7ba987d05b1e9dbbdbd2e9091264623746e3528) — Albert Villanova del Moral · 2026-05-29
+- `45ff197` [Align KTO with DPO: Remove null_ref_context (#5875)](https://github.com/huggingface/trl/commit/45ff19767220b5f93927aeeea18d49b106085499) — Albert Villanova del Moral · 2026-05-29
+- `51c6d3c` [KTO: Support non-sequential train_sampling_strategy for apo_zero_unpaired (#5872)](https://github.com/huggingface/trl/commit/51c6d3ca31fb4cc80ff719c0844bbdfcd0feeefb) — Albert Villanova del Moral · 2026-05-27
+- `a7001be` [Align KTO with DPO: Align ref log probability names (#5856)](https://github.com/huggingface/trl/commit/a7001bee229aae7e3c2c99c18b4800019add97a8) — Albert Villanova del Moral · 2026-05-27
+- `11ac296` [Fix: specify encoding="utf-8" when reading .jinja chat templates on Windows (#5869)](https://github.com/huggingface/trl/commit/11ac29664f4920687014f33a783a988beda35098) — Coleby Pearson · 2026-05-27
+- `1877853` [KTO: Replace _get_train_sampler with train_sampling_strategy for transformers >= 5.2.0 (#5864)](https://github.com/huggingface/trl/commit/1877853ae43c43cc5509e890dda3a2c9e0bd380f) — Albert Villanova del Moral · 2026-05-27
+- `8bbe1b1` [Support `'None'` as CLI value for `Optional[T]` fields (#5843)](https://github.com/huggingface/trl/commit/8bbe1b10189101ef42829ce5ac34d3f1049243aa) — Quentin Gallouédec · 2026-05-27
+- `69c9b18` [Raise if precompute_ref_log_probs with vision datasets in DPO (#5867)](https://github.com/huggingface/trl/commit/69c9b18d5cbc04355c1fc0a08eeb61fef5d3d354) — Albert Villanova del Moral · 2026-05-27
+- `1339f69` [Align KTO with DPO: Support remove_unused_columns (#5866)](https://github.com/huggingface/trl/commit/1339f6953d92e28ce92d849925499bcb0b2458dc) — Albert Villanova del Moral · 2026-05-27
+- `56653ba` [🔒 Gate trainer telemetry on an explicit class-name allowlist (#5851)](https://github.com/huggingface/trl/commit/56653ba4d7b18914210f685634bc9b86fa28f1b8) — Quentin Gallouédec · 2026-05-27
+- `a130aab` [Flash Attention capitalization fix (#5855)](https://github.com/huggingface/trl/commit/a130aab40202676fb4d1fde9889385031aa3550a) — Quentin Gallouédec · 2026-05-27
+- `2ffaabd` [Align KTO with DPO: Align precompute_ref_logps (#5850)](https://github.com/huggingface/trl/commit/2ffaabd5472c49d5bfec713898f0af4ace4d39c7) — Albert Villanova del Moral · 2026-05-26
+- `a25c07e` [Align KTO with DPO: Align compute_ref_log_probs (#5852)](https://github.com/huggingface/trl/commit/a25c07e8529c3425bcc52bd0398fe264ced83524) — Albert Villanova del Moral · 2026-05-26
+- `107803e` [Remove NeMo Gym Integration Guide (broken) (#5840)](https://github.com/huggingface/trl/commit/107803e2ec5d5aab0eba90ea50fd246781a55532) — Christian Munley · 2026-05-26
+- `a0d4723` [Add Qwen2-VL original and training chat template with generation markers (#5839)](https://github.com/huggingface/trl/commit/a0d472341893b9975a33f618422187d9fa804a96) — Alexandr Azizyan · 2026-05-26
+- `7a8ebfe` [Per-field invariance tolerances, calibrated (#5844)](https://github.com/huggingface/trl/commit/7a8ebfec11e1c1c7aa73bcda01fc3a26447ba340) — Quentin Gallouédec · 2026-05-26
+- `58dfe2a` [Align KTO with DPO: Refactor forward (#5849)](https://github.com/huggingface/trl/commit/58dfe2a5fdeeac2f25473e47ac01dd1440cba755) — Albert Villanova del Moral · 2026-05-26

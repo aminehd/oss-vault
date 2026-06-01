@@ -1,35 +1,35 @@
 ---
 repo: "ExecuTorch"
 slug: executorch
-commits_7d: 99
-updated: 2026-05-26
+commits_7d: 80
+updated: 2026-06-01
 ---
 
 # ExecuTorch — Recent Commits (7d)
 
-**99 commits this week** · [GitHub](https://github.com/pytorch/executorch/commits)
+**80 commits this week** · [GitHub](https://github.com/pytorch/executorch/commits)
 
 ← [[../executorch|Back to ExecuTorch]]
 
 ## Commits
 
-- `03e14ef` [Arm backend: Add bf16 support for aten.index_select and aten.unfold_copy (#19751)](https://github.com/pytorch/executorch/commit/03e14ef8b3964deb589f3f172b4bbee7d206795a) — Youngsik Yang · 2026-05-25
-- `b73df0b` [NXP backend: Enable Sub Tensor with new Neutron flow (#19588)](https://github.com/pytorch/executorch/commit/b73df0b4696885c6e03f3789daeece8376078364) — roman-janik-nxp · 2026-05-25
-- `ee4c90a` [Arm backend: Exclude build metadata from license checks](https://github.com/pytorch/executorch/commit/ee4c90ad03f33398cbfa93cfed09caf04fca6099) — Per Held · 2026-05-25
-- `ba6074c` [Back out "Globally serialize XNNPACK execution, add logging" (#19752)](https://github.com/pytorch/executorch/commit/ba6074c3868abb8f602a22565445b52f8b5bdfb1) — Julian Chan · 2026-05-25
-- `b69cbcd` [NXP backend: Enable Add Tensor with new Neutron flow (#19550)](https://github.com/pytorch/executorch/commit/b69cbcd6ffefe6e13fa25c4ea9285786b04692ca) — roman-janik-nxp · 2026-05-24
-- `d757776` [Add extension_llm_runner to CMake deps (#19749)](https://github.com/pytorch/executorch/commit/d757776f51bc41aedac47fe51dd020474726774c) — Hansong Zhang · 2026-05-23
-- `7d8063f` [[ET Device Support] Define AOT device copy ops registry (#19748)](https://github.com/pytorch/executorch/commit/7d8063f9e6221ad8724f122ad3ec4cbb1aae2fc6) — Gasoonjia · 2026-05-23
-- `c27cc5d` [[ET Device Support] CudaAllocator: device memory allocator for CUDA backend (#19747)](https://github.com/pytorch/executorch/commit/c27cc5d5bb872603ec90378c486049bc2c77a382) — Gasoonjia · 2026-05-23
-- `12f62f2` [[ET Device Support] Module: allocate device memory for planned buffers (#19746)](https://github.com/pytorch/executorch/commit/12f62f2eb869eddbe4c612efe3f957bfc965aff0) — Gasoonjia · 2026-05-23
-- `6bda6c4` [Globally serialize XNNPACK execution, add logging (#19742)](https://github.com/pytorch/executorch/commit/6bda6c490ed8c2e2ac02049725b9a454dc92ec07) — Gregory Comer · 2026-05-23
-- `158c5d8` [Convert Android LLM extension from Java to Kotlin (#19211)](https://github.com/pytorch/executorch/commit/158c5d8f109479ecfb9ca6ef5e638a4961f5b379) — Hansong Zhang · 2026-05-23
-- `ec76470` [Cortex_M backend: Add more model tests (#19720)](https://github.com/pytorch/executorch/commit/ec764702419ddc62570c06a282cb34f6d0ed0172) — Adrian Lundell · 2026-05-22
-- `a83e7c4` [Fix 2 broken tests caused by D105910457](https://github.com/pytorch/executorch/commit/a83e7c479568df009375a0154b00123abcf585c7) — Scott Roy · 2026-05-22
-- `88eaf81` [Unify static-attention PTE output reconstruction by reusing create_pte_wrapper from run_static_llm (#19723)](https://github.com/pytorch/executorch/commit/88eaf81c32adf0855eff4bca3427bcd240269d34) — YIWENX14 · 2026-05-22
-- `80f39be` [Run RISC-V tests with multiple RVV QEMU configurations (#19707)](https://github.com/pytorch/executorch/commit/80f39be7333a551e690a730878ee11d334acbb3f) — Ludovic Henry · 2026-05-22
-- `0d6632b` [Add TransducerRunner and rename AsrRunner to Seq2SeqRunner (#18961)](https://github.com/pytorch/executorch/commit/0d6632b04a97f555448c998dba9289ff43f0b078) — Hansong Zhang · 2026-05-22
-- `b37653c` [Fix executorch -Wno-missing-prototypes flag for Zephyr/GCC builds (#19071) (#19071)](https://github.com/pytorch/executorch/commit/b37653c11550671082f936edecd78dc0b7b44758) — Karan Dewan · 2026-05-22
-- `9dac74d` [Improve Gemma4 MLX perf by removing redundant casts  (#19732)](https://github.com/pytorch/executorch/commit/9dac74d8c087d9d654b554036088aa1668478664) — Scott Roy · 2026-05-22
-- `e6b8df8` [Qualcomm AI Engine Direct - Adding QNN backend support for select_scatter core ATen op (#19704)](https://github.com/pytorch/executorch/commit/e6b8df849c145644c06e378b89ffb59cbb4cc3da) — qti-horodnic · 2026-05-22
-- `90a7cdb` [Arm backend: fix(arm): validate partitions for dependency cycles after Q/DQ de-tagging (#18191)](https://github.com/pytorch/executorch/commit/90a7cdb5da0119b790a5309a8452f67f1ef918dc) — Beom Woo Kang · 2026-05-22
+- `ec31735` [Enable QuantFusionPass in compiler pipeline (#19728) (#19728)](https://github.com/pytorch/executorch/commit/ec317357dce55a7bda318966bf44eb2abe3f3cec) — Ethan Ng · 2026-05-30
+- `bd24e79` [Add fuse() to remaining QuantizationPatterns (#19727)](https://github.com/pytorch/executorch/commit/bd24e79e87e9093a70cc7f1d8e63366ac457bfd4) — Ethan Ng · 2026-05-30
+- `5395f20` [[MLX][Gemma4] Add turbo quant support (#19866)](https://github.com/pytorch/executorch/commit/5395f2084ee1ef1243ad30309cc7c74b93e9f683) — Scott Roy · 2026-05-29
+- `0e6b67e` [Add fuse() to QuantizationPatterns (#19726)](https://github.com/pytorch/executorch/commit/0e6b67ed9620e435fe387e90c12aa284be2e7a71) — Ethan Ng · 2026-05-29
+- `29c18de` [Use uint64_t for FlatTensor segment end](https://github.com/pytorch/executorch/commit/29c18def8be12f6915b5c6b0fab435105c4fb6d2) — Jacob Szwejbka · 2026-05-29
+- `10e2eec` [Skip AOTI tests on macOS CI and bump job timeout to 120 min](https://github.com/pytorch/executorch/commit/10e2eecfb63a14781554aa1e3dae83c19929e46b) — SS-JIA · 2026-05-29
+- `915a82d` [[devtools][tests][4/N] Report disabled inspector tests as executed](https://github.com/pytorch/executorch/commit/915a82d4235c92930b7670c19d4f006852ba6e00) — ssjia · 2026-05-29
+- `d1c80af` [[ET-VK][tests][1/N] Report disabled delegate tests as executed](https://github.com/pytorch/executorch/commit/d1c80af479dba2040444959e6b9e7264abbcf377) — ssjia · 2026-05-29
+- `84c0484` [Fix ghstack merge bot failing to parse PR stack header](https://github.com/pytorch/executorch/commit/84c0484d15c9bc96e05384a93e9ee174e81351fe) — SS-JIA · 2026-05-29
+- `88faab2` [Opportunistically use __FILE_NAME__ to get filename (#19834) (#19834)](https://github.com/pytorch/executorch/commit/88faab264734e7c6b4640d30485ebafa717189a1) — Jacob Stevens · 2026-05-29
+- `cf6daa9` [Add short function support (#19846)](https://github.com/pytorch/executorch/commit/cf6daa9b1cb354de33528cb3eff1ccbe443ad2df) — Jacob Stevens · 2026-05-29
+- `b0441b5` [Change python to python3 in shell script](https://github.com/pytorch/executorch/commit/b0441b50be603a6312c6857d359e47b049fd67c7) — George Gekov · 2026-05-29
+- `ad4d190` [Arm backend: Fix Smollm2 model test](https://github.com/pytorch/executorch/commit/ad4d19057d0184ba7aa72d3355a2365dd8a8cc09) — George Gekov · 2026-05-11
+- `513a4ea` [Arm backend: Avoid running passes with no matching target ops (#19839)](https://github.com/pytorch/executorch/commit/513a4eaef4411325ae537beb44fe33eaf75205c3) — Yufeng Shi · 2026-05-29
+- `1494535` [Arm backend: Fix VKML install bug for macOS. (#19612)](https://github.com/pytorch/executorch/commit/1494535ba2d391c274a225dd03b2d81c429944c8) — Michiel Olieslagers · 2026-05-29
+- `f6be985` [LLM support: improve VGF export and calibration pipeline (#19157)](https://github.com/pytorch/executorch/commit/f6be9851aa90b373a212d4eab24614d561c44c43) — Xingguo Li · 2026-05-29
+- `ea37954` [Arm backend: Add BF16 layer tests for Qwen (#19767)](https://github.com/pytorch/executorch/commit/ea37954cd7eeec168608010f8faaaa6c9ccfa6bc) — Tom Allsop · 2026-05-29
+- `501d641` [Arm backend: Fix bug causing empty partition reports (#19842)](https://github.com/pytorch/executorch/commit/501d6415437eae895531d3783bf622f6ccb56f40) — Erik Lundell · 2026-05-29
+- `c72bc87` [NXP backend: Enable `aten.upsample_nearest2d` with new Neutron flow. (#19796)](https://github.com/pytorch/executorch/commit/c72bc872a652c2197e954287bb62f0ebd0a69d75) — Martin Pavella · 2026-05-29
+- `007570a` [NXP backend: Enable `aten.upsample_bilinear2d` with new Neutron flow. (#19793)](https://github.com/pytorch/executorch/commit/007570a970b0d3d1188b887fae2fd276970499f5) — Martin Pavella · 2026-05-29

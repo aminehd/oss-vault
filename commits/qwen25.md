@@ -2,7 +2,7 @@
 repo: "Qwen2.5"
 slug: qwen25
 commits_7d: 0
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # Qwen2.5 — Recent Commits (7d)

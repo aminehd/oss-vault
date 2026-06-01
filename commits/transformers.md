@@ -1,35 +1,35 @@
 ---
 repo: "Transformers"
 slug: transformers
-commits_7d: 36
-updated: 2026-05-26
+commits_7d: 63
+updated: 2026-06-01
 ---
 
 # Transformers — Recent Commits (7d)
 
-**36 commits this week** · [GitHub](https://github.com/huggingface/transformers/commits)
+**63 commits this week** · [GitHub](https://github.com/huggingface/transformers/commits)
 
 ← [[../transformers|Back to Transformers]]
 
 ## Commits
 
-- `ceb7ba6` [Fix Gemma4 use_bidirectional_attention="all" mask behavior (#46079)](https://github.com/huggingface/transformers/commit/ceb7ba69722a2f677ed0138e3d6933f34f4164ce) — Oliver Holworthy · 2026-05-26
-- `4a2e365` [Fix loading with only 1 device or distributed config (#46197)](https://github.com/huggingface/transformers/commit/4a2e3652facc3579704fe8b10b8fbd4ab2879620) — Cyril Vallez · 2026-05-26
-- `ece1ea0` [Fix TypeError on list-typed ignore_keys_at_rope_validation in RoPE config (#46142)](https://github.com/huggingface/transformers/commit/ece1ea0635367989ad4dfab0c084bcc57e5d897b) — Carlos Redondo · 2026-05-25
-- `7bc093b` [Support XPU autocast dtype fallback for FlashAttention (#46199)](https://github.com/huggingface/transformers/commit/7bc093b71ecc42204b48cd6abf65a437f73655ad) — YangKai0616 · 2026-05-25
-- `eaaaf84` [Fix path traversal when saving named chat templates (#46191)](https://github.com/huggingface/transformers/commit/eaaaf8494dd5386634ae37d1d122212fdc315be5) — Ziyu Lin · 2026-05-25
-- `47949d3` [Fix is_last off-by-one in MaskGenerationPipeline for partial batches (#46136)](https://github.com/huggingface/transformers/commit/47949d3a0e1cf9248f2a3eb3cd0deb12ee37b9e9) — Jeremy Perera · 2026-05-25
-- `118ddfb` [Fix wrong variable in check_model_type isinstance check (#46080)](https://github.com/huggingface/transformers/commit/118ddfb69cc9911255e6d3465f61c78d1627102b) — Sebastien Tardif · 2026-05-25
-- `0b2da85` [Enable passing kwargs through RoFormer models (#46171)](https://github.com/huggingface/transformers/commit/0b2da85d4e8ec7f3e10606d0955ca127cabd4b7d) — ir2718 · 2026-05-25
-- `e65c3a2` [Update cohere2_moe tp_plan (#46189)](https://github.com/huggingface/transformers/commit/e65c3a2d1461e6c43f6f5d4157c583846f63f71d) — Cyril Vallez · 2026-05-25
-- `e4b2983` [Update release tool (#46193)](https://github.com/huggingface/transformers/commit/e4b2983002bbb9d1fe82de3ddf6f820d67b5a726) — Cyril Vallez · 2026-05-25
-- `a214caa` [[loading] Fix base_model_prefix issues in conversions (#46067)](https://github.com/huggingface/transformers/commit/a214caa386c7835cddc9455df974246737bcbf75) — Cyril Vallez · 2026-05-25
-- `7f2c8c9` [Fix caching allocator warmup byte estimation for EP model loading (#46149)](https://github.com/huggingface/transformers/commit/7f2c8c904f56a8a7100d90948071a18baedc4c41) — Wang, Yi · 2026-05-25
-- `a31fc72` [Bump dev version (#46188)](https://github.com/huggingface/transformers/commit/a31fc7277a436ee96c0092d55dc3473ad6a3d54b) — Cyril Vallez · 2026-05-25
-- `1055551` [Fix image-segmentation pipeline support for RF-DETR (#46130)](https://github.com/huggingface/transformers/commit/10555512868d663ee1ff627e4f5c5c260114235b) — Yoni Gozlan · 2026-05-21
-- `797bb0d` [Update self-comment-ci (#46137)](https://github.com/huggingface/transformers/commit/797bb0d6c6478615eb89bd0e6ee41628b9059ceb) — guarin · 2026-05-21
-- `52b82b2` [[ALM] flaky alm tests (#46074)](https://github.com/huggingface/transformers/commit/52b82b299171721fbe7b04fe056187f7aed2e2cc) — eustlb · 2026-05-20
-- `9188b5e` [Add new cohere2_moe model (#46115)](https://github.com/huggingface/transformers/commit/9188b5e1391e4f6a46cbe6be7befcb10f3d6bdcd) — Cyril Vallez · 2026-05-20
-- `ae7e60d` [[loading] Free up tensors faster inside ConversionOps (#46110)](https://github.com/huggingface/transformers/commit/ae7e60d7aae6a64b9b4d53bd115b4a9b5ac351e7) — Cyril Vallez · 2026-05-20
-- `7a52743` [Restore test utils fix (#46065)](https://github.com/huggingface/transformers/commit/7a52743626cea1948df33a85a4582e83909c407a) — Rémi Ouazan · 2026-05-20
-- `0137dee` [Allow `ydshieh2` for now for testing migration (#46105)](https://github.com/huggingface/transformers/commit/0137deeb65e4d03f9015a1c9cfccec524ac52fe9) — Yih-Dar · 2026-05-20
+- `39603d0` [Make more tests work with read-only cache (#46299)](https://github.com/huggingface/transformers/commit/39603d0e5cdb6f00e8d473d7fcbb01032d709181) — Yih-Dar · 2026-05-30
+- `bb0ee88` [Separate pip command syntax for notebook and CLI tabs in Quickstart (#46243)](https://github.com/huggingface/transformers/commit/bb0ee88a4a815302baab4cd41d1534b3fa318fab) — pvelayudhan · 2026-05-29
+- `56153cc` [Romanian translation of README.md, index.md, installation.md, _config.py and quicktour.md. (#46166)](https://github.com/huggingface/transformers/commit/56153cc42c53a3bbe8518d0f1ddd1ba8704e1ef7) — filipinescu · 2026-05-29
+- `8d974fb` [fix series of bugs for model parallel beam search (#46280)](https://github.com/huggingface/transformers/commit/8d974fb67429da250a63fe6ce3cab3b4efc61656) — kaixuanliu · 2026-05-29
+- `420c80a` [Fall back to flat kwarg when modality dict is passed without it (#46195)](https://github.com/huggingface/transformers/commit/420c80aad04e24ce280805fc2736d6d7e0755d44) — Mahbod · 2026-05-29
+- `c220ea9` [Fix load_adapter OOM caused by full-model warmup sizing (#46145)](https://github.com/huggingface/transformers/commit/c220ea9ecee9231927a47d97a63d5604a09d4c63) — Yooniel · 2026-05-29
+- `e1a37d2` [Replace assert with raise ImportError for optuna/ray dependency checks (#46263)](https://github.com/huggingface/transformers/commit/e1a37d29cd4822d74f4f3323289fb69e1eec61a0) — Sebastien Tardif · 2026-05-29
+- `e977b06` [chore(linter): respect TRF017 modeling rule (#46260)](https://github.com/huggingface/transformers/commit/e977b060c297ee192d0319c63d04ba924e992102) — Tarek Ziade · 2026-05-29
+- `84a6f0b` [Delete dead code in qwen-vl series (#45827)](https://github.com/huggingface/transformers/commit/84a6f0b9e5eb9f155f9596b75c5eab5c85f3effb) — Raushan Turganbay · 2026-05-29
+- `fda83a3` [qa: fix ty caching and align CI with local run (#46278)](https://github.com/huggingface/transformers/commit/fda83a314d8bca69b8d8253d8cc6be9b355f03ef) — Tarek Ziade · 2026-05-29
+- `c3b7df0` [Guard DeviceMesh import in continuous batching (#46205)](https://github.com/huggingface/transformers/commit/c3b7df0e601121f1be3952fb90a18702b1a1b895) — Danyal Ahmed · 2026-05-29
+- `4557092` [Processor compatibility with vLLM  (#46258)](https://github.com/huggingface/transformers/commit/455709256d731fd597995877a9c5a88c479fe38e) — Raushan Turganbay · 2026-05-29
+- `96d3ecc` [Fix PR CI workflow cancellation condition (#46276)](https://github.com/huggingface/transformers/commit/96d3eccef9e156a82e218cadd345158e4bba435e) — Yih-Dar · 2026-05-29
+- `7b89db2` [[fix] toctree (#46106)](https://github.com/huggingface/transformers/commit/7b89db28adc32547358558376f171e354a32a996) — Steven Liu · 2026-05-29
+- `c5292db` [add more generic support for distributed trainer tests (#46109)](https://github.com/huggingface/transformers/commit/c5292db6d7011ba75479d6d0c00d9098354d1908) — kaixuanliu · 2026-05-29
+- `da78b36` [add XPU Expectations for florence2 and lfm2_vl model test (#46275)](https://github.com/huggingface/transformers/commit/da78b36fa11d198527b0fed4df18818a8f51e351) — kaixuanliu · 2026-05-29
+- `08f1309` [Fix model parallel issue for altclip model and ChineseClip model (#45487)](https://github.com/huggingface/transformers/commit/08f13097eb5c057b2bd373ca8241019614f564ac) — kaixuanliu · 2026-05-28
+- `9cfa266` [feat: Add support for JetBrains' `Mellum` v2 code generation model (#46112)](https://github.com/huggingface/transformers/commit/9cfa266f06c7f9a6b2872504d0778757496f0262) — Madeesh Kannan · 2026-05-28
+- `0ff380e` [Fix `StaticCache` building an empty layer list when `num_kv_shared_layers == 0` (#46235)](https://github.com/huggingface/transformers/commit/0ff380e0768ff9ca1d08e6e8da3c7c2ab7914b88) — Alvaro Moran · 2026-05-28
+- `e120f7e` [Model parallel fix (#46230)](https://github.com/huggingface/transformers/commit/e120f7ea911b7c06f47045abd8f3261018f01f9a) — kaixuanliu · 2026-05-28

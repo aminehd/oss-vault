@@ -2,7 +2,7 @@
 repo: "Agent Governance Toolkit"
 slug: agent-governance-toolkit
 issues_count: 6
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # Agent Governance Toolkit — Contribution Opportunities
@@ -13,26 +13,26 @@ No GFI labels but accepts unsolicited docs/tooling PRs. zeel2104 has 4 PRs. Micr
 
 ## Open Issues (6)
 
-- **[#2537 feat: language parity for wire-protocol-aware policy evaluation (TS, Rust, .NET, Go)](https://github.com/microsoft/agent-governance-toolkit/issues/2537)** `enhancement` `needs-review:MEDIUM`
-  opened 2026-05-23 · 1 comments
-  > ## Summary  Track language parity for the wire-protocol-aware policy evaluation feature being delivered for Python in #2487 (which closes #2483).  #2483 / #2487 only cover the **Python** implement
+- **[#2726 [Proposal] Adversarial Test Suite — 52-Scenario Security Assessment](https://github.com/microsoft/agent-governance-toolkit/issues/2726)** `needs-review:MEDIUM`
+  opened 2026-06-01 · 2 comments
+  > # [Proposal] Adversarial Test Suite — 52-Scenario Security Assessment  ## Summary  We implemented a comprehensive adversarial test suite for AGT, covering 52 scenarios across: - OWASP Agentic AI Top 1
 
-- **[#2480 feat: transparent proxy mode for zero-code interception](https://github.com/microsoft/agent-governance-toolkit/issues/2480)** `enhancement`
-  opened 2026-05-22 · 1 comments
-  > ## Summary  Add a transparent proxy/tunnel mode so AGT's governance sidecar can intercept agent traffic without requiring the agent to make explicit API calls.  ## Problem  AGT's current sidecar
+- **[#2713 feat: minimal-PATH sandbox image for command denylist enforcement](https://github.com/microsoft/agent-governance-toolkit/issues/2713)** `enhancement` `good first issue` `agent-hypervisor` `needs-review:MEDIUM`
+  opened 2026-05-31 · 1 comments
+  > ## Goal  Split out from #2662. Build a minimal-PATH sandbox container image so command denylist enforcement cannot be bypassed via alternate binary locations.  ## Background  #2662 tracks broader sand
 
-- **[#2479 feat: policy regression testing framework](https://github.com/microsoft/agent-governance-toolkit/issues/2479)** `enhancement`
-  opened 2026-05-22 · 1 comments
-  > ## Summary  Add a `agt test` CLI command that replays recorded policy decisions against rule changes and fails when a verdict flips unexpectedly.  ## Problem  Policy rules evolve over time. When
+- **[#2695 [Feature]: CI: Enforce agent-os governance parity + adapter contract conformance tests in package-matrix test job (remove soft-fail for this scope)](https://github.com/microsoft/agent-governance-toolkit/issues/2695)** `enhancement` `good first issue` `ci/cd` `needs-review:MEDIUM` `accepted`
+  opened 2026-05-30 · 4 comments
+  > ### Package  agent-os-kernel  ---  ### Problem Statement  The repository already includes adapter/governance conformance assets in `agent-os` (governance parity checks and adapter contract conformance
 
-- **[#2478 feat: human-in-the-loop and LLM judge approval chains for PolicyEvaluator](https://github.com/microsoft/agent-governance-toolkit/issues/2478)** `enhancement`
-  opened 2026-05-22 · 0 comments
-  > ## Summary  Add a `require_approval` verdict to PolicyEvaluator that routes ambiguous or high-risk decisions to human reviewers or LLM judges before allowing execution.  ## Problem  PolicyEvalua
+- **[#2692 RFC: policy distribution and registries with verifiable trust (ADR-0029)](https://github.com/microsoft/agent-governance-toolkit/issues/2692)** `documentation` `enhancement` `pinned` `architecture` `needs-review:MEDIUM` `Priority: MEDIUM`
+  opened 2026-05-29 · 2 comments
+  > ## Summary  Open RFC discussion for **ADR-0029: Policy distribution and registries with verifiable trust** (PR #2691). Companion to issue #2638 (AGT Studio) and follow-up to ADR-0008 (cross-org poli
 
-- **[#2477 feat: wire detection modules into enforcement lifecycle](https://github.com/microsoft/agent-governance-toolkit/issues/2477)** `enhancement`
-  opened 2026-05-22 · 0 comments
-  > ## Summary  Several detection modules exist in AGT but are not automatically wired into the enforcement lifecycle via \BaseIntegration\. This means they appear in the feature matrix but don't fire i
+- **[#2667 feat: wire GovernedCallable into hypervisor ring enforcement](https://github.com/microsoft/agent-governance-toolkit/issues/2667)** `enhancement` `help wanted` `agent-mesh` `security` `Priority: HIGH` `accepted`
+  opened 2026-05-29 · 0 comments
+  > ## Summary  `GovernedCallable` (the core governance wrapper in agent-mesh) evaluates policy rules against context fields but has no integration with the hypervisor ring system. An agent's execution 
 
-- **[#2470 RFC: Support Azure Functions-based policy enforcement through AI Gateway for Foundry prompt-based agents](https://github.com/microsoft/agent-governance-toolkit/issues/2470)** `enhancement` `triage` `size/XL`
-  opened 2026-05-22 · 2 comments
-  > ### Summary  Propose support for a governance pattern in which AI Gateway policy can invoke Azure Functions to evaluate and enforce policy decisions for Microsoft Foundry prompt-based agent traffic, i
+- **[#2666 feat: integrate hypervisor ring enforcement into sandbox providers](https://github.com/microsoft/agent-governance-toolkit/issues/2666)** `enhancement` `agent-hypervisor` `security` `Priority: HIGH`
+  opened 2026-05-29 · 1 comments
+  > ## Summary  The `agent-hypervisor` ring enforcement system (`RingEnforcer`, `RingBreachDetector`, `ActionClassifier`) defines resource constraints per execution ring, including `subprocess_allowed`,

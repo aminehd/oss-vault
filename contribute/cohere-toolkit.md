@@ -2,7 +2,7 @@
 repo: "Cohere Toolkit"
 slug: cohere-toolkit
 issues_count: 1
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # Cohere Toolkit — Contribution Opportunities

@@ -2,7 +2,7 @@
 repo: "Cohere Toolkit"
 slug: cohere-toolkit
 commits_7d: 0
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # Cohere Toolkit — Recent Commits (7d)

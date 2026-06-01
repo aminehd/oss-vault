@@ -3,7 +3,7 @@ repo: "DeepSeek-V3"
 slug: deepseek-v3
 gfi_count: 0
 commits_7d: 0
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # DeepSeek-V3 — Good First Issues

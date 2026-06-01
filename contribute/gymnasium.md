@@ -2,7 +2,7 @@
 repo: "Gymnasium"
 slug: gymnasium
 issues_count: 6
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # Gymnasium — Contribution Opportunities
@@ -14,7 +14,7 @@ Adding new environments or wrappers is well-defined. Core RL infrastructure.
 ## Open Issues (6)
 
 - **[#1585 [Proposal] Faster PyGame Init](https://github.com/Farama-Foundation/Gymnasium/issues/1585)** `enhancement`
-  opened 2026-05-24 · 0 comments
+  opened 2026-05-24 · 2 comments
   > ### Proposal  Per the comment in https://github.com/Farama-Foundation/PettingZoo/issues/1252  If I'm correct that the suggestion is correct, and we aren't doing this in Gymnasium already, then we prob
 
 - **[#1559 [Proposal] Add fully tunable transition dynamics (including deterministic mode) to LunarLander](https://github.com/Farama-Foundation/Gymnasium/issues/1559)** `enhancement`

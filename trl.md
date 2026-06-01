@@ -2,16 +2,16 @@
 id: oss/trl
 display: TRL
 area: training
-stars: 18465
-commits_7d: 28
+stars: 18505
+commits_7d: 27
 tags: [oss, training, python, pytorch]
 source_url: https://github.com/huggingface/trl
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 # TRL
 
-- **Commits (7d):** 28
+- **Commits (7d):** 27
 - **Good first issues:** 0
 
 — none right now

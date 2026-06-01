@@ -1,37 +1,35 @@
 ---
 repo: "Agent Governance Toolkit"
 slug: agent-governance-toolkit
-commits_7d: 100
-updated: 2026-05-26
+commits_7d: 88
+updated: 2026-06-01
 ---
 
 # Agent Governance Toolkit — Recent Commits (7d)
 
-**100 commits this week** · [GitHub](https://github.com/microsoft/agent-governance-toolkit/commits)
+**88 commits this week** · [GitHub](https://github.com/microsoft/agent-governance-toolkit/commits)
 
 ← [[../agent-governance-toolkit|Back to Agent Governance Toolkit]]
 
 ## Commits
 
-- `4fa15d4` [docs: replace unsourced red-team percentages with cited references (#2577) (#2586)](https://github.com/microsoft/agent-governance-toolkit/commit/4fa15d4efcd7f135875f31cf296c9505af9d8021) — Ricky Gummadi · 2026-05-26
-→ touches: `docs/` — improves the documentation by adding citations for red-teaming statistics.
-- `25cc862` [docs: consolidate OWASP and compliance documentation under docs/compliance/ (#2584)](https://github.com/microsoft/agent-governance-toolkit/commit/25cc8624a09d465ebe4f16222ba52bfe7724ae52) — Ricky Gummadi · 2026-05-26
-→ touches: `docs/` — reorganizes the documentation to better structure compliance-related information.
-- `66e1f16` [feat(golang): credential injection and offload (#2535) (#2583)](https://github.com/microsoft/agent-governance-toolkit/commit/66e1f16e2e19a7ab5db6c4287c055998bd392511) — Imran Siddique · 2026-05-25
-- `818326d` [feat(rust): credential injection and offload (#2535) (#2582)](https://github.com/microsoft/agent-governance-toolkit/commit/818326df03f857814055b852af3b11e3844de481) — Imran Siddique · 2026-05-25
-- `35fcc86` [feat(dotnet): credential injection and offload (#2535) (#2581)](https://github.com/microsoft/agent-governance-toolkit/commit/35fcc86a78934160294aaa9d41fc3c44e9a4e9ee) — Imran Siddique · 2026-05-25
-- `6969918` [feat(typescript): credential injection and offload (#2535) (#2570)](https://github.com/microsoft/agent-governance-toolkit/commit/696991816bb213f3e4630f5493eb8bf891d2c65e) — Ricky Gummadi · 2026-05-25
-- `21e10c9` [docs: add MCP 2026-07-28 migration ADR (#2580)](https://github.com/microsoft/agent-governance-toolkit/commit/21e10c968db5977ed0982f013d3f439a7ad2116d) — Imran Siddique · 2026-05-25
-- `a381484` [docs(adopters): add Provedit to evaluation / pilot (#2578)](https://github.com/microsoft/agent-governance-toolkit/commit/a381484048c661352dce151d7da9997dfb435dfc) — provedit · 2026-05-25
-- `6f94b69` [docs: use agent-governance-toolkit[full] consistently in install commands (#2579)](https://github.com/microsoft/agent-governance-toolkit/commit/6f94b69f4c524f5c87227db0609e3d28deba7fb7) — Imran Siddique · 2026-05-25
-- `6010a92` [docs: add NSA MCP compliance mapping (#2562)](https://github.com/microsoft/agent-governance-toolkit/commit/6010a92a5406b6fd969d405682f19215a0742b46) — Jack Batzner · 2026-05-25
-- `07f67f2` [refactor: make Python MAF examples use real MAF runtime flows (#2560)](https://github.com/microsoft/agent-governance-toolkit/commit/07f67f22873450318cd042472b3a232db08d47a5) — Jack Batzner · 2026-05-25
-- `131bc6a` [docs: add PR hygiene guidance to AGENTS (#2563)](https://github.com/microsoft/agent-governance-toolkit/commit/131bc6a346ab9758465528a9d31d47336bb1199d) — Jack Batzner · 2026-05-25
-- `2608543` [fix: correct threat model README link (#2564)](https://github.com/microsoft/agent-governance-toolkit/commit/260854339538daad5ec431645e8633b58075293d) — Jack Batzner · 2026-05-25
-- `aa92651` [docs: align README with homepage narrative and structure (#2561)](https://github.com/microsoft/agent-governance-toolkit/commit/aa9265160710b4d67af017e79eb66f81a38de2c8) — Imran Siddique · 2026-05-24
-- `cdef2a0` [chore(deps): bump opentelemetry in /agent-governance-rust (#2559)](https://github.com/microsoft/agent-governance-toolkit/commit/cdef2a0a55ea3b35ff6d6a6b5c8ed1fe0aef4baf) — dependabot[bot] · 2026-05-24
-- `d5ac04a` [chore(deps): bump @microsoft/agent-governance-sdk (#2558)](https://github.com/microsoft/agent-governance-toolkit/commit/d5ac04a2aa5b387d8f649230f1f2308e5e3adca6) — dependabot[bot] · 2026-05-24
-- `04dcaa4` [chore(deps): bump regorus in /agent-governance-rust (#2557)](https://github.com/microsoft/agent-governance-toolkit/commit/04dcaa4f8a8a795c5db4460c5a7446c1030fcce0) — dependabot[bot] · 2026-05-24
-- `56a6d91` [chore(deps): bump docker/build-push-action from 7.1.0 to 7.2.0 (#2556)](https://github.com/microsoft/agent-governance-toolkit/commit/56a6d9138d2ef1c27bd42ae0e650e93a3201a1d0) — dependabot[bot] · 2026-05-24
-- `c167742` [fix(governance): export FacetRegistry and extract_protocol_facets from agentmesh.governance (#2555)](https://github.com/microsoft/agent-governance-toolkit/commit/c1677423828b3fda7f58b282f9c91c2ad8f29042) — Dipika Ranabhat · 2026-05-24
-- `98dcd82` [feat: add antigravity CLI governance package (#2554)](https://github.com/microsoft/agent-governance-toolkit/commit/98dcd822f321df34d64a61187cc35b5c562aeca5) — Imran Siddique · 2026-05-24
+- `ca08dd0` [fix(ci): skip backward compat shim test when transitive deps missing (#2723)](https://github.com/microsoft/agent-governance-toolkit/commit/ca08dd0cc47ca40a0645a60175515a290acfab72) — Imran Siddique · 2026-05-31
+- `7efc8fa` [fix(ci): fix conftest import and add python-dateutil to marketplace dev deps (#2722)](https://github.com/microsoft/agent-governance-toolkit/commit/7efc8fab46900873f4948b7b0a1246e9a843b965) — Imran Siddique · 2026-05-31
+- `4f57eda` [fix(ci): skip tests requiring OPA/Cedar CLI and langgraph in CI (#2721)](https://github.com/microsoft/agent-governance-toolkit/commit/4f57eda2e655ad4049e817f7824661628054fcfd) — Imran Siddique · 2026-05-31
+- `9ce8d59` [fix(ci): stabilize test matrix across all Python packages (#2720)](https://github.com/microsoft/agent-governance-toolkit/commit/9ce8d59ef1b850e219e18b0ff908eca9016a1a45) — Imran Siddique · 2026-05-31
+- `a8a96bf` [fix(mesh-identity): harden Entra JWT verification (#2719)](https://github.com/microsoft/agent-governance-toolkit/commit/a8a96bf40b2deece51902de375b58ac9aebf4090) — Imran Siddique · 2026-05-31
+- `472d24b` [docs: add Vortex MSP to ADOPTERS.md (Evaluation / Pilot) (#2714)](https://github.com/microsoft/agent-governance-toolkit/commit/472d24b8c46205309479ece6b353ee135cb78e7f) — Anthony · 2026-05-31
+- `38a47a5` [fix(ci): fail package-matrix jobs when pytest fails (#2710)](https://github.com/microsoft/agent-governance-toolkit/commit/38a47a5a6f0b9d4296ef34fd04d5862e36b4b722) — Sushan Poudel · 2026-05-31
+- `72362c3` [fix(ci): update workflow paths after packages/ layout migration (#2712)](https://github.com/microsoft/agent-governance-toolkit/commit/72362c33bd9068ab8dcc4213bfb6a2c48c452f34) — Sushan Poudel · 2026-05-31
+- `44a47cc` [chore(deps): bump axios in /agent-governance-typescript/agent-os-vscode (#2708)](https://github.com/microsoft/agent-governance-toolkit/commit/44a47ccba7c491e3df39a6194c0e36412f137769) — dependabot[bot] · 2026-05-31
+- `7e5e2b2` [fix(agent-os): close authorization bypasses in stateless kernel and execute API (#2644)](https://github.com/microsoft/agent-governance-toolkit/commit/7e5e2b21ede17fc068d08c9a5d7d0435203c6a8d) — Jack Batzner · 2026-05-30
+- `ccf15a5` [feat: LangGraph v1.0 governance adapter with stale-auth fingerprinting (#2694)](https://github.com/microsoft/agent-governance-toolkit/commit/ccf15a51cac18de2239578b23871cec4199f97d3) — Pranav Koduru · 2026-05-30
+- `b3268d1` [feat: add sandbox subprocess code scanner (#2705)](https://github.com/microsoft/agent-governance-toolkit/commit/b3268d1e23569b33bfc9e435bfe17c58201cfbfa) — Carlos Hernandez · 2026-05-30
+- `c29f2bb` [feat: add openshell shell interception (#2704)](https://github.com/microsoft/agent-governance-toolkit/commit/c29f2bbaeb4a1d043c2aa8a2079d20826c572531) — Carlos Hernandez · 2026-05-30
+- `4e50b79` [chore(deps-dev): bump tsup (#2707)](https://github.com/microsoft/agent-governance-toolkit/commit/4e50b79c93356f655cf83dc75174e4c160362117) — dependabot[bot] · 2026-05-30
+- `ac83f88` [chore: add mute-agent red-team test terms to spell-check allowlist (#2693)](https://github.com/microsoft/agent-governance-toolkit/commit/ac83f88dc714abd71e93b45253700213671aee6c) — Jack Batzner · 2026-05-30
+- `f0d1662` [ci(cloud-board): fix lint failures from merged #2645 (#2696)](https://github.com/microsoft/agent-governance-toolkit/commit/f0d1662f068e037715d1846174c8acddbf7afb6c) — Jack Batzner · 2026-05-30
+- `3bfb7a1` [fix(ci): add legacy-peer-deps to npm ci, add pyyaml to ci-test deps (#2706)](https://github.com/microsoft/agent-governance-toolkit/commit/3bfb7a14bb087f91c89c7dd3e081a56d62f85b0e) — Imran Siddique · 2026-05-30
+- `916475b` [chore(deps): bump ai and @mastra/core (#2700)](https://github.com/microsoft/agent-governance-toolkit/commit/916475b9297d4be4d54db21d21e1cd035e7c27e9) — dependabot[bot] · 2026-05-30
+- `de64dc9` [chore(deps): bump jsondiffpatch and @mastra/core (#2701)](https://github.com/microsoft/agent-governance-toolkit/commit/de64dc9356736f60bba6b3b75e46596157a986c0) — dependabot[bot] · 2026-05-30
+- `2dcd902` [fix(esrp): bump Rust to 1.89.0, unify PyPI publish into single parallel stage (#2703)](https://github.com/microsoft/agent-governance-toolkit/commit/2dcd902b4a314def366f5939632ee8d9ea75d5f3) — Imran Siddique · 2026-05-30
